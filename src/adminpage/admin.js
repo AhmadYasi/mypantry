@@ -8,20 +8,16 @@ function admin() {
   };
 
   return (
-    <div>
-      
-        <div style={{padding: '20px'}} className='navbar navbar-light bg-light' >
-          
-          <h2 style={{ textAlign: 'left', marginBottom: '25px', fontFamily: 'cursive'}}>MyPantry </h2>
-          
-          <button style={{ float: 'right', marginBottom: '25px', fontFamily: 'cursive'}}>Profile</button>
-          
+      <div>
+        <div style={{padding: '20px', backgroundColor: '#f2f2f2'}} className='navbar ' >
+            <h2 style={{ textAlign: 'left', fontFamily: 'cursive'}}>MyPantry </h2>
+            <button style={{ float: 'right', fontFamily: 'cursive'}}>Profile</button>
         </div>
       
 
       <div className="content">
        
-        <Tabs defaultActiveKey="user-list" onSelect={handleTabSelect}>
+        <Tabs defaultActiveKey="user-list" onSelect={handleTabSelect} >
           <Tab eventKey="user-list" title="User List">
             <div className="container">
               <h3 className="page-title">User List</h3>

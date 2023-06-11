@@ -4,7 +4,7 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 
-import ADMINING from './userpage/SignUpPage';
+import ADMINING from './userpage/Home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
